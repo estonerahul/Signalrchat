@@ -36,7 +36,7 @@ android {
 }
 
 configurations {
-    compile.exclude group: 'microsoft.aspnet.signalr.client'
+    compile.exclude group: 'microsoft.aspnet.signalr.client.Action'
 }
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
